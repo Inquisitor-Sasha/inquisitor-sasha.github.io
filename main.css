@@ -1,11 +1,12 @@
 body {
 	background-image: url('http://inquisitor-sasha.sturmkrieg.ru/sk-term.png');
 	background-size: cover;
-	background-position: fixed;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	color: #FAAC58;
 	font-family: Consolas, san-serif, monospace;
 	font-style: normal;
 	padding: 30px;
 }
 
-a { color: #2EFE2E; }
+a { color: #FF0000; }

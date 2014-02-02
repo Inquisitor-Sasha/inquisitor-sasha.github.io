@@ -15,6 +15,48 @@
 		<li>Programming</li>
 		<li>Software</li>
 		<li>Hacking</li>
+		<li>Security</li>
+
+	<h2>Software</h2>
+		<h3>Rasputin</h3>
+			<p>Source:</p>
+			<a href="https://github.com/Sturmkrieg/rasputin" alt="Source code on GitHub">https://github.com/Sturmkrieg/rasputin</a>
+			<p>Rasputin is a very basic webshell tool that can be used for gaining shell command
+			access in enviornments where shell access is not normally possible, or as a penetration
+			testing tool.  If used in a production enviornment (any live webserver that is accessible
+			on the internet), extreme care should be taken so that it is not exploited by malicious
+			hackers.  Any malicious misuse of the webshell could have very serious effects on the
+			website and server on which the webshell is running, as well as any users who have
+			registered on the website(s).  For example, malicious use could result in user passwords
+			being discovered and users being hacked on many different web services.  Any users of this
+			webshell should make sure that they use a very long and secure password.  Changing the
+			login username to something that is not obvious is very strongly recommended.  Anything
+			such as "admin," "tester," or "user" is extremely insecure and means that an attacker
+			will only have to guess the password and not the username in addition.</p>
+
+			<p>To install Rasputin, upload the files containing the scripts and pages to any folder
+			on the webserver where you would like to access it from.  Before doing anything else,
+			edit the sysConfig.php file and change the username and password that will be used for
+			logging into the webshell.  The password is hashed in order to prevent someone with access
+			to the script from knowing the password, so you will need to enter the hashed value of
+			the password.  You must make sure that you change the password because the default value
+			for the password is "root," which is useful for development enviornments where only the
+			administrator or programmer has access.  You can use <a href="https://gist.github.com/Inquisitor-Sasha/8763418">this script</a>
+			to generate the hashed value of the password.  The script is run from the command line.</p>
+
+		<h3>WikiBanner</h3>
+			<p>Source:</p>
+			<a href="https://github.com/Sturmkrieg/mw-WikiBanner" alt="Source code on GitHub">https://github.com/Sturmkrieg/mw-WikiBanner</a>
+			<p>WikiBanner is a MediaWiki extension that allows sysadmins to create a banner that
+			displays on the wiki, from the server in LocalSettings.php.  The advantage of configuring
+			the banner from the server is that only system administrators will have access to the
+			banner code, and so any HTML and JavaScript can be used to create the banner without the
+			risk of malicious code being entered.  The downside of the configuration is that web users
+			on the wiki will not be able to configure the banner.  Future versions of this extension might
+			include an option to allow the banner code to be defined in a MediaWiki system message page
+			from the wiki on the web, so that end users of the wiki with the proper permissions will be
+			able to configure the banner.  The extension allows for two banners to be create, one at the
+			top of the page and another at the bottom.</p>
 
 </body>
 </html>
