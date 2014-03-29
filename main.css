@@ -1,12 +1,19 @@
+html {
+	background: #BDBDBD;
+}
+
 body {
-	background-image: url('http://inquisitor-sasha.sturmkrieg.ru/fallout-term.png');
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	color: #A9F5BC;
-	font-family: Consolas, san-serif, monospace;
-	font-style: normal;
-	padding: 30px;
+	width: 75%;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;	
+	background: #E6E6E6;
+	color: #424242;
+	font-family: arial, san-serif;
+	position: relative;
+	left: 100px;
+	border-left: solid 1px #424242;
+	border-right: solid 1px #424242;
 }
 
 a { color: #01DF3A; }
